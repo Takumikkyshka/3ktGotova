@@ -13,6 +13,7 @@ import CartPage from "./pages/CartPage";
 import Kt3Page from "./pages/Kt3Page";
 import ProductPage from "./pages/ProductPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import Kt5Page from "./pages/5KtPage";
 
 export const router = createBrowserRouter([
     {
@@ -69,6 +70,10 @@ export const router = createBrowserRouter([
             {
                 path: 'product/:id',
                 Component: ProductPage
+            },
+            {
+                path: '5kt',
+                Component: Kt5Page
             },
             {
                 path: '*',

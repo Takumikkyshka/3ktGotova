@@ -23,6 +23,7 @@ export default function Header() {
             <NavLink to="/users">Пользователи</NavLink>
             <NavLink to="/cart">Корзина</NavLink>
             <NavLink to="/kt3">Кт3</NavLink>
+            <NavLink to="/5kt">5Кт</NavLink>
             <button className='cursor-pointer' onClick={scrollToFooter}>Перейти к футеру</button>
         </nav>
     </header> 
