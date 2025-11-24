@@ -11,6 +11,8 @@ import UsersPage from "./pages/UsersPage";
 import GetUserPage from "./pages/GetUserPage";
 import CartPage from "./pages/CartPage";
 import Kt3Page from "./pages/Kt3Page";
+import ProductPage from "./pages/ProductPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 export const router = createBrowserRouter([
     {
@@ -59,6 +61,18 @@ export const router = createBrowserRouter([
             {
                 path: 'kt3',
                 Component: Kt3Page
+            },
+            {
+                path: 'products',
+                Component: Kt3Page
+            },
+            {
+                path: 'product/:id',
+                Component: ProductPage
+            },
+            {
+                path: '*',
+                Component: NotFoundPage
             }
         ]
     }
