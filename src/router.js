@@ -69,7 +69,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'product/:id',
-                Component: ProductPage
+                Component: ProductPage,
+                
             },
             {
                 path: '5kt',
